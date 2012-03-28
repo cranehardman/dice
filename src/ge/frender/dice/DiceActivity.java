@@ -37,7 +37,7 @@ public class DiceActivity extends Activity {
 			@Override
 			public void onClick(View v) {
 				counter--;
-				display.setText("your total crane is:" + counter);
+				display.setText("your total aaaa is:" + counter);
 
 			}
 		});
