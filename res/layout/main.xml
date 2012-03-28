@@ -5,31 +5,30 @@
     android:orientation="vertical" >
 
     <TextView
-        android:id="@+id/tv"
+        android:id="@+id/tDice1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text="Your total is: 0"
-        android:textSize="45dp" />
+        android:text="kamateli I:"
+        android:textSize="20dp" />
+     <TextView
+        android:id="@+id/tDice2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="kamateli II:"
+        android:textSize="20dp" />
 
     <Button
         
-        android:id="@+id/bAdd"
+        android:id="@+id/bRoll"
         android:layout_width="250dp"
         android:layout_height="50dp"
         android:layout_gravity="center"
         
-        android:text="+" >
+        android:text="Roll" >
     </Button>
-
-    <Button
-        android:id="@+id/bSub"
-        android:layout_width="250dp"
-        android:layout_height="50dp"
-        android:layout_gravity="center"
-        
-        android:text="-" >
-    </Button>
+
     
   
 
