@@ -44,7 +44,7 @@ public class DiceActivity extends Activity {
 		int rdice1 = r.nextInt(6) + 1;
 		int rdice2 = r.nextInt(6) + 1;
 
-		tdice1.setText("kamateli I: " + rdice1);
+		tdice1.setText("kamateli I:123 " + rdice1);
 		tdice2.setText("Kamateli II:" + rdice2);
 
 	}
